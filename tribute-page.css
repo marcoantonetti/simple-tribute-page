@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+    font-size: 10px;
+  }
+
+:root{
+    --light-color: #e5cdb4c3;
+}
+body{
+    
+  font-family:  'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #874907;
+  background-color: var(--light-color);
+}
+
+main {
+    background-color: #8b60254b;
+}
+
+
+#main-header{
+    height: 100%;
+}
+
+#title{
+
+    padding-top:1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    
+}
+
+#title-text{
+   margin-bottom: -0.2em;
+}
+
+figure{
+
+    background-color: var(--light-color);
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+img{
+
+    width: 80%;
+    height: auto;
+    margin-top: 2em;
+    margin-bottom:0.8em;
+
+}
+
+#img-caption{
+    padding-bottom: 1em;
+}
+
+
+blockquote{
+    
+    font-family: Aclonica , sans-serif;
+    font-size: x-large;
+    line-height: 140%;
+    
+    }
+    
+.wisdom-experience{
+
+    color: rgba(153, 0, 255, 0.564);
+    
+    }
+    
+    
+#list{
+    text-align: left;
+    width: 75%;
+    padding-left: 30%;
+    margin: 16px 0;
+
+}
+
+li:not(:last-child) {
+    margin: 1.6rem 0;
+}
+
+footer{
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+
+
+
+a {
+    
+    color: #477ca7;
+    
+    }
+
+a:visited {
+    
+    color: #786f86;
+    
+}
+
+
+@media (max-width:1024px) {
+
+    #list{
+        
+        padding-left: 10%;
+        width: 100%;
+        padding-right: 2rem;   
+
+ }
+
+    figure  {
+
+        margin: 1rem;
+
+     }
+
+
+     img{
+
+        width: 95%;
+        height: auto;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+
+     }
+
+     #img-caption{
+    font-size: small;    
+}
+
+    
+}
